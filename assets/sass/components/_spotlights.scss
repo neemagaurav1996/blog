@@ -34,7 +34,7 @@
 
 				&:before {
 					@include vendor('transition', 'opacity #{_duration(activation)} ease');
-					background: transparentize(_palette(bg), 0.1);
+					// background: transparentize(_palette(bg), 0.1);
 					content: '';
 					display: block;
 					height: 100%;

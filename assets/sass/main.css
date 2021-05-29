@@ -306,12 +306,6 @@ hr.major {
   color: rgba(255, 255, 255, 0.55);
 }
 
-.article-link {
-  font-size: 1.75em;
-  font-weight: bold;
-  border-bottom: none;
-}
-
 /* Row */
 .row {
   display: flex;
@@ -2475,6 +2469,7 @@ body.is-ie .spotlights > section {
   -webkit-transition: opacity 1s ease;
   -ms-transition: opacity 1s ease;
   transition: opacity 1s ease;
+  background: rgba(49, 36, 80, 0.9);
   content: "";
   display: block;
   height: 100%;
