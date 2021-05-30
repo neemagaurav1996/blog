@@ -2457,32 +2457,17 @@ body.is-ie .spotlights > section {
 }
 .spotlights > section > .image {
   background-position: center center;
-  background-size: contain;
   border-radius: 0;
   display: block;
   position: relative;
   width: 20em;
   height: auto;
   background-repeat: no-repeat;
-  margin-left: 2em;
+  background-size: 90%;
 }
 .spotlights > section > .image img {
   border-radius: 0;
   display: block;
-}
-.spotlights > section > .image:before {
-  -moz-transition: opacity 1s ease;
-  -webkit-transition: opacity 1s ease;
-  -ms-transition: opacity 1s ease;
-  transition: opacity 1s ease;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
 .spotlights > section > .content {
   padding: 4em 5em 2em 5em;
@@ -2539,7 +2524,7 @@ body.is-ie .spotlights > section {
   }
   .spotlights > section > .image {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
   }
   .spotlights > section > .content {
     width: 100%;
@@ -2553,7 +2538,7 @@ body.is-ie .spotlights > section {
 }
 @media screen and (max-width: 736px) {
   .spotlights > section > .image {
-    height: 50vh;
+    height: 70vh;
     min-height: 15em;
   }
   .spotlights > section > .content {
