@@ -60,16 +60,13 @@
 					));
 					opacity: 1;
 				}
-			}
+		}
 
-			&:nth-child(1) {
-			}
-
-			&:nth-child(2) {
+			&:nth-child(even){
 				background-color: rgba(0,0,0,0.05);
 			}
 
-			&:nth-child(3) {
+			&:nth-child(odd){
 				background-color: rgba(0,0,0,0.1);
 			}
 

@@ -307,6 +307,7 @@ hr.major {
 }
 
 .article-link {
+  line-height: 1em;
   font-size: 1.75em;
   font-weight: bold;
   border-bottom: none;
@@ -2497,10 +2498,10 @@ body.is-ie .spotlights > section {
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1;
 }
-.spotlights > section:nth-child(2) {
+.spotlights > section:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-.spotlights > section:nth-child(3) {
+.spotlights > section:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.1);
 }
 .spotlights > section.inactive > .image:before, body.is-preload .spotlights > section > .image:before {
