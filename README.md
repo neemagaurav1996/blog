@@ -1,4 +1,4 @@
-## Personal Website - Gaurav Neema
+## Blog Website - Gaurav Neema
 
 Setup using github pages and jekyll
 
@@ -11,6 +11,7 @@ Setup using github pages and jekyll
   - `jekyll serve --liverload`
   - To watch the scss folder, go to assets: `sass --watch sass:css`
   - Update `_config.yml` file
+  
   
 Theme used: https://html5up.net/hyperspace
 
