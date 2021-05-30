@@ -8,8 +8,8 @@ Setup using github pages and jekyll
 
 **Setup (Linux)**
   - Install the required dependencies
-  - `jekyll serve --liverload`
-  - To watch the scss folder, go to assets: `sass --watch sass:css`
+  - In one terminal, `jekyll serve --liverload`
+  - To watch the scss folder, go to assets folder and in another terminal: `sass --watch sass:css`
   - Update `_config.yml` file
   
   
