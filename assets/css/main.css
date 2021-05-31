@@ -312,6 +312,16 @@ hr.major {
   font-weight: bold;
   border-bottom: none;
 }
+.article-link:hover {
+  border-bottom: 1px solid;
+}
+
+.other-links {
+  color: rgba(255, 255, 255, 0.7);
+}
+.other-links:hover {
+  color: white;
+}
 
 /* Row */
 .row {

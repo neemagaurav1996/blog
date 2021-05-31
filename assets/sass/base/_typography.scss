@@ -208,4 +208,14 @@
 		font-size: 1.75em;
 		font-weight: bold;
 		border-bottom: none;
+		&:hover {
+			border-bottom: 1px solid;
+		}
+	}
+
+	.other-links{
+		color: rgba(255, 255, 255, 0.7);
+		&:hover {
+			color: rgba(255, 255, 255, 1);
+		}
 	}
