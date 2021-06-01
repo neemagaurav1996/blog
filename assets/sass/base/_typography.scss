@@ -7,7 +7,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: _palette(fg-normal);
+		color: _palette(fg);
 		font-family: _font(family);
 		font-size: 16.5pt;
 		font-weight: _font(weight);
@@ -212,4 +212,9 @@
 		&:hover {
 			border-bottom: 1px solid;
 		}
+	}
+
+	.font-bold{
+		color: _palette(fg-bold);
+		font-weight: bold;
 	}
