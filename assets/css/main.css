@@ -108,11 +108,12 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
 /* Type */
 body, input, select, textarea {
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: normal;
   line-height: 1.75;
+  font-display: swap;
 }
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
@@ -303,7 +304,7 @@ hr.major {
 }
 
 .muted-text {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.35);
 }
 
 .article-link {
@@ -314,13 +315,6 @@ hr.major {
 }
 .article-link:hover {
   border-bottom: 1px solid;
-}
-
-.other-links {
-  color: rgba(255, 255, 255, 0.7);
-}
-.other-links:hover {
-  color: white;
 }
 
 /* Row */

@@ -12,6 +12,7 @@
 		font-size: 16.5pt;
 		font-weight: _font(weight);
 		line-height: 1.75;
+		font-display: swap;
 
 		@include breakpoint('<=xlarge') {
 			font-size: 13pt;
@@ -200,7 +201,7 @@
 	}
 
 	.muted-text{
-		color: _palette(fg);
+		color: _palette(fg-light);
 	}
 
 	.article-link{
@@ -210,12 +211,5 @@
 		border-bottom: none;
 		&:hover {
 			border-bottom: 1px solid;
-		}
-	}
-
-	.other-links{
-		color: rgba(255, 255, 255, 0.7);
-		&:hover {
-			color: rgba(255, 255, 255, 1);
 		}
 	}
