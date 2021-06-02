@@ -20,11 +20,12 @@
 
 title: Gaurav Neema
 email: neemagaurav1996@gmail.com
-description: Personal Blog
+description: Personal website where I blog about Software Development, Python, SQL etc.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://neemagaurav1996.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gaurav_neema
 github_username:  neemagaurav1996
+author: Gaurav Neema
 
 # Build settings
 theme: minima
