@@ -1,8 +1,12 @@
 
 .icon-clock:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github-circled-1:before { content: '\f09b'; } /* '' */
 .icon-rss:before { content: '\f09e'; } /* '' */
 .icon-rss-squared:before { content: '\f143'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-pinterest:before { content: '\f231'; } /* '' */
 .icon-medium:before { content: '\f23a'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */
 .icon-linkedin:before { content: '\f318'; } /* '' */

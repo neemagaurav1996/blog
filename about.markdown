@@ -1,18 +1,21 @@
 ---
-layout: page
+# layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 15%;
+  }
+</style>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<div class="container">
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+  <h2><p>Nothing here...</p></h2>
+  <p><a href="/blog/">Go to Home</a></p>
 
-
-[jekyll-organization]: https://github.com/jekyll
+</div>

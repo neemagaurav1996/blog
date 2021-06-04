@@ -1,0 +1,44 @@
+
+#article_post{
+
+	max-width: 50em;
+	margin: auto;
+
+	h2{
+		line-height: 1.2;
+	}
+
+	a{
+		color: _palette(accent3);
+		border-color: _palette(accent3);
+		&:hover{
+			color: _palette(accent3-alt);
+			border-color: _palette(accent3-alt);
+		}
+	}
+
+	.article-cover-image{
+		width: 100%;
+		display: block;
+		margin: auto;
+		margin-top: 1em;
+	}
+
+	.article-image-caption{
+		text-align: center;
+		font-size: 80%;
+		margin-bottom: 1em;
+		color: _palette(fg-light);
+	}
+
+	.share-article{
+		margin-bottom: 1em;
+		a {
+			border-bottom: none;
+		}
+	}
+
+	.article-info{
+		padding-bottom: 1em;
+	}
+}

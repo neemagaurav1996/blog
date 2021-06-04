@@ -10,14 +10,19 @@
 		@include vendor('display', 'flex');
 		background-color: _palette(accent1);
 		cursor: default;
-		padding: 1.75em 2em;
+		padding: 1em 2em;
 
 		> .title {
 			border: 0;
-			color: _palette(fg-bold);
+			color: _palette(fg);
 			display: block;
 			font-size: 1.25em;
 			font-weight: _font(weight-bold);
+
+			&:hover{
+				color: _palette(fg-bold);
+			}
+
 		}
 
 		> nav {
@@ -48,7 +53,7 @@
 						text-transform: uppercase;
 
 						&:hover {
-							color: _palette(fg);
+							color: _palette(fg-bold);
 						}
 
 						&.active {
