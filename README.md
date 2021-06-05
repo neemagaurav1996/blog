@@ -10,7 +10,7 @@ Setup using github pages and jekyll
   - Install the required dependencies
   - In one terminal, `jekyll serve --liverload`
   - To watch the scss folder, go to assets folder and in another terminal: `sass --watch sass:css`
-  - Update `_config.yml` file
+  - Update `_config.yml` file accordingly
   
   
 Theme used: https://html5up.net/hyperspace
