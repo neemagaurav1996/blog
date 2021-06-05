@@ -7,6 +7,7 @@ categories: [Blogging, Article]
 permalink: indian-govt-vs-social-media-apps
 tags: social-media indian-government apps-ban
 image: images/article-images/indian-govt-vs-social-media.jpeg
+comments: true
 ---
 
 ## Indian Government vs Social Media Apps 
