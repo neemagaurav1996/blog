@@ -11,8 +11,8 @@ image: images/article-images/indian-govt-vs-social-media.jpeg
 
 ## Indian Government vs Social Media Apps 
 <div class="article-info muted-text">
-    <span>Published on <a rel="noopener" href="https://gaurav-neema.medium.com/indian-government-vs-social-media-apps-f4b5fdf6f70c" target="_blank">Medium</a> on May 24, 2021</span>
-    <span class="duration" style="margin-left: 10px;"><i class="icon-clock"></i> 2 min read</span>
+    <span class="published-on">Published on <a rel="noopener" href="https://gaurav-neema.medium.com/indian-government-vs-social-media-apps-f4b5fdf6f70c" target="_blank">Medium</a> on May 24, 2021</span>
+    <span class="duration"><i class="icon-clock"></i> 2 min read</span>
 </div>
 
 What’s the fuzz is all about??

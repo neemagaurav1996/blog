@@ -17,8 +17,17 @@
 		}
 	}
 
-	.duration{
-		white-space: nowrap;
+	.article-info{
+
+		padding-bottom: 1em;
+		
+		.published-on{
+			margin-right: 10px;
+		}
+
+		.duration{
+			white-space: nowrap;
+		}
 	}
 
 	figure{
@@ -56,7 +65,4 @@
 		}
 	}
 
-	.article-info{
-		padding-bottom: 1em;
-	}
 }

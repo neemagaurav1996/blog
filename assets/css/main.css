@@ -3208,7 +3208,13 @@ body.is-preload #sidebar nav ul li {
   color: #0046cc;
   border-color: #0046cc;
 }
-#article_post .duration {
+#article_post .article-info {
+  padding-bottom: 1em;
+}
+#article_post .article-info .published-on {
+  margin-right: 10px;
+}
+#article_post .article-info .duration {
   white-space: nowrap;
 }
 #article_post figure {
@@ -3238,9 +3244,6 @@ body.is-preload #sidebar nav ul li {
 }
 #article_post .share-article a {
   border-bottom: none;
-}
-#article_post .article-info {
-  padding-bottom: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */
