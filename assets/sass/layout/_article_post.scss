@@ -17,19 +17,26 @@
 		}
 	}
 
-	.article-cover-image{
-		width: 100%;
-		display: block;
-		margin: auto;
-		margin-top: 1em;
+	figure{
+
+		display: inline-block;
+
+		.article-image{
+			width: 100%;
+			margin: auto;
+			margin-top: 1em;
+			margin-bottom: 0.5em;
+		}
+
+		.article-image-caption{
+			text-align: center;
+			font-size: 80%;
+			margin-bottom: 1em;
+			color: _palette(fg-light);
+			line-height: 1.5;
+		}
 	}
 
-	.article-image-caption{
-		text-align: center;
-		font-size: 80%;
-		margin-bottom: 1em;
-		color: _palette(fg-light);
-	}
 
 	.share-article{
 		margin-bottom: 1em;

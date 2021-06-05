@@ -3208,17 +3208,21 @@ body.is-preload #sidebar nav ul li {
   color: #0046cc;
   border-color: #0046cc;
 }
-#article_post .article-cover-image {
+#article_post figure {
+  display: inline-block;
+}
+#article_post figure .article-image {
   width: 100%;
-  display: block;
   margin: auto;
   margin-top: 1em;
+  margin-bottom: 0.5em;
 }
-#article_post .article-image-caption {
+#article_post figure .article-image-caption {
   text-align: center;
   font-size: 80%;
   margin-bottom: 1em;
   color: rgba(255, 255, 255, 0.55);
+  line-height: 1.5;
 }
 #article_post .share-article {
   margin-bottom: 1em;

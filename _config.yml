@@ -26,13 +26,17 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 twitter_username: gaurav_neema
 github_username:  neemagaurav1996
 linkedin_username: gaurav-neema-088bb3121
-author: Gaurav Neema
+author:
+  name: Gaurav Neema
+  twitter: gaurav_neema
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+excerpt_separator: <!--more-->
 
 # Exclude from processing.
 # The following items will not be processed, by default.
