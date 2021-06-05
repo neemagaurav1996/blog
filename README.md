@@ -12,6 +12,10 @@ Setup using github pages and jekyll
   - To watch the scss folder, go to assets folder and in another terminal: `sass --watch sass:css`
   - Update `_config.yml` file accordingly
   
+
+**Integrations**
+  - Google Analytics
+  - Disqus
   
 Theme used: https://html5up.net/hyperspace
 

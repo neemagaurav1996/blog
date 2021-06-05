@@ -1,75 +1,28 @@
 ---
+layout: default
 # The posts' layout
 ---
-<!DOCTYPE HTML>
-<html lang="en">
-	<head>
-		<title>{{page.title}}</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Article Page" />
+<body class="is-preload">
 
-		{% if page.canonical_url %}
-			<link rel="canonical" href="{{ page.canonical_url }}" />
+	{% include header.html %}
+
+	<div id="article_post">
+		<section class="wrapper">
+			<div class="inner">
+				{{content}}
+				{% include social_share.html %}
+			</div>
+		</section>
+
+		<!-- Disqus code -->
+		{% if page.comments %}
+		<section class="wrapper">
+			<div class="inner">
+				{% include disqus.html %}
+			</div>
+		</section>
 		{% endif %}
+		<!-- Disqus code end-->
 
-    	<link rel = "icon" href = "assets/favicon.png" type = "image/x-icon">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		{% include header.html %}
-
-		<div id="article_post">
-			<section class="wrapper">
-				<div class="inner">
-					{{content}}
-					<div class="share-article">
-					    Share this on &rarr;
-
-					    <a href="https://twitter.com/intent/tweet?text={{ page.url | absolute_url | url_encode }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="noopener noreferrer" target="_blank" title="Share on Twitter">
-					    	<i class="icon-twitter"></i>
-					    </a>
-
-					    <a href="https://facebook.com/sharer.php?u={{ page.url | absolute_url | url_encode }}" rel="noopener noreferrer" target="_blank" title="Share on Facebook">
-					    	<i class="icon-facebook"></i>
-					    </a>
-
-					    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" rel="noopener noreferrer" target="_blank" title="Share on Linkedin">
-					    	<i class="icon-linkedin"></i>
-					    </a>
-
-					</div>
-				</div>
-
-
-			</section>
-
-			<!-- Disqus code -->
-			{% if page.comments %}
-			<section class="wrapper">
-				<div class="inner">
-					{% include disqus.html %}
-				</div>
-			</section>
-			{% endif %}
-			<!-- Disqus code end-->
-
-
-		</div>
-
-	    <!-- Footer -->
-    	{% include footer.html %}
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+	</div>
+</body>
