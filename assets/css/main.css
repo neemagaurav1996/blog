@@ -3224,6 +3224,12 @@ body.is-preload #sidebar nav ul li {
   color: rgba(255, 255, 255, 0.55);
   line-height: 1.5;
 }
+#article_post figure .article-image-2 {
+  max-width: 100%;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
 #article_post .share-article {
   margin-bottom: 1em;
 }

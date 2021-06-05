@@ -55,12 +55,12 @@ Knowing this, WhatsApp has filed a lawsuit in New Delhi against the government�
 WhatsApp has explained clearly about traceability and why they oppose it in this [post](https://faq.whatsapp.com/general/security-and-privacy/what-is-traceability-and-why-does-whatsapp-oppose-it).
 
 <figure>
-	<img class="article-image" src="images/article-images/whatsapp-end-to-end.jpeg" alt="Whatsapp end-to-end encryption">
+	<img class="article-image-2" src="images/article-images/whatsapp-end-to-end.jpeg" alt="Whatsapp end-to-end encryption">
 	<figcaption class="article-image-caption">In end-to-end encryption, there is no way to predict which message a government would want to investigate in the future. In doing so, a government that chooses to mandate traceability is effectively mandating a new form of mass surveillance. To comply, messaging services would have to keep giant databases of every message you send, or add a permanent identity stamp — like a fingerprint — to private messages with friends, family, colleagues, doctors, and businesses. Companies would be collecting more information about their users at a time when people want companies to have less information about them. <a href="https://faq.whatsapp.com/general/security-and-privacy/what-is-traceability-and-why-does-whatsapp-oppose-it" class="bv it" rel="noopener nofollow">Source</a></figcaption>
 </figure>
 
 <figure>
-	<img class="" src="images/article-images/whatsapp-quote.jpeg" alt="Whatsapp Quote">
+	<img class="article-image-2" src="images/article-images/whatsapp-quote.jpeg" alt="Whatsapp Quote">
 	<figcaption class="article-image-caption"></figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ Twitter said that they were concerned about its employees in India and the poten
 In response to it, the Indian government condemns Twitter’s statement as baseless, false & an attempt to defame India to hide its follies.
 
 <figure>
-	<img src="images/article-images/ani-twitter.png" alt="Tweets by ANI">
+	<img class="article-image-2" src="images/article-images/ani-twitter.png" alt="Tweets by ANI">
 	<figcaption class="article-image-caption">Tweets by ANI</figcaption>
 </figure>
 
