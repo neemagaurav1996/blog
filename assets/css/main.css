@@ -3208,6 +3208,9 @@ body.is-preload #sidebar nav ul li {
   color: #0046cc;
   border-color: #0046cc;
 }
+#article_post .duration {
+  white-space: nowrap;
+}
 #article_post figure {
   display: inline-block;
 }
