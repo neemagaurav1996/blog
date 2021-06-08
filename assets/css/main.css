@@ -2507,6 +2507,12 @@ body.is-ie .spotlights > section {
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1;
 }
+.spotlights > section:nth-child(even) {
+  background-color: #555559;
+}
+.spotlights > section:nth-child(odd) {
+  background-color: #5a5a5e;
+}
 .spotlights > section.inactive > .image:before, body.is-preload .spotlights > section > .image:before {
   opacity: 1;
 }
