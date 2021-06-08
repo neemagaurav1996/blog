@@ -1,5 +1,7 @@
 ## Blog Website - Gaurav Neema
 
+Website URL: https://neemagaurav1996.github.io/blog/
+
 Setup using github pages and jekyll
 
 **Dependencies**
@@ -13,10 +15,9 @@ Setup using github pages and jekyll
   - Update `_config.yml` file accordingly
   
 
-**Integrations**
+**Integrations** (Change the files accordingly in _includes)
   - Google Analytics
   - Disqus
   
 Theme used: https://html5up.net/hyperspace
 
-Website URL: https://neemagaurav1996.github.io/blog/
