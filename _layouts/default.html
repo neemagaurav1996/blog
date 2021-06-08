@@ -3,7 +3,7 @@
 	
 	<head>
 
-		{% if page.title' %}
+		{% if page.title %}
     	<title>{{page.title}}</title>
   		{% else %}
 		<title>{{site.title}}</title>
@@ -28,7 +28,10 @@
   		{% endif %}
 	</head>
 
+	<!-- <a id="theme-toggle" onclick="modeSwitcher()">Switch</a> -->
+	<span class="light-theme">
 	{{content}}
+	</span>
 
 	<!-- Footer -->
     {% include footer.html %}
@@ -41,4 +44,20 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- <script type="text/javascript">
+
+	    $(".theme-toggle").click(function(e){
+			e.preventDefault();
+			$('html').toggleClass("dark");
+			if ($('html').hasClass("dark")){
+				document.cookie = "theme=dark;path=/";
+			}
+			else {
+				document.cookie = "theme=light;path=/";
+			}
+		});
+
+    </script> -->
+
 </html>

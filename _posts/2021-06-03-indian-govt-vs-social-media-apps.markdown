@@ -6,6 +6,7 @@ categories: [Blogging, Article]
 permalink: indian-govt-vs-social-media-apps
 tags: social-media indian-government apps-ban
 image: images/article-images/indian-govt-vs-social-media.jpeg
+image_alt: indian-govt-vs-socail-media
 comments: true
 canonical_url: https://gaurav-neema.medium.com/indian-government-vs-social-media-apps-f4b5fdf6f70c
 ---
@@ -19,8 +20,8 @@ canonical_url: https://gaurav-neema.medium.com/indian-government-vs-social-media
 What’s the fuzz is all about??
 
 <figure>
-	<img class="article-image" src="images/article-images/indian-govt-vs-social-media.jpeg" alt="indian-govt-vs-socail-media" width="200">
-	<figcaption class="article-image-caption">Image by <a href="https://pixabay.com/users/mikerenpening-1178818/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1138001" class="bv it" rel="noopener nofollow" target="_blank">Mike Renpening</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1138001" class="bv it" rel="noopener nofollow" target="_blank">Pixabay</a></figcaption>
+	<img class="article-image" src="{{ page.image }}" alt="{{ page.image_alt }}" width="200">
+	<figcaption class="article-``image-caption">Image by <a href="https://pixabay.com/users/mikerenpening-1178818/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1138001" class="bv it" rel="noopener nofollow" target="_blank">Mike Renpening</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1138001" class="bv it" rel="noopener nofollow" target="_blank">Pixabay</a></figcaption>
 </figure>
 
 We have been seeing a tremendous number of news and posts related to the new IT rules imposed by the Indian Government that social media apps need to follow. These social media apps including Facebook, Twitter, Koo, and WhatsApp. In the latest development, WhatsApp has sued the Indian government over new regulations.
