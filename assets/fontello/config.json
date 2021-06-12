@@ -71,6 +71,30 @@
       "css": "facebook",
       "code": 61594,
       "src": "fontawesome"
+    },
+    {
+      "uid": "567e3e257f2cc8fba2c12bf691c9f2d8",
+      "css": "moon",
+      "code": 61830,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "95fb2e5fdd1ea7e4a420b6ed330e6b08",
+      "css": "sun",
+      "code": 59394,
+      "src": "meteocons"
+    },
+    {
+      "uid": "5278ef7773e948d56c4d442c8c8c98cf",
+      "css": "lightbulb",
+      "code": 61675,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c2152732d525871cf35345955854f711",
+      "css": "moon-inv",
+      "code": 59395,
+      "src": "iconic"
     }
   ]
 }

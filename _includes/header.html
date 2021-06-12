@@ -1,9 +1,29 @@
-<header id="header">
+<header id="header" class="wrapper style1">
   <a href="/blog/" class="title">Gaurav Neema</a>
   <nav>
     <ul>
+      <li><span id="theme_icon" onclick="changeTheme()"></span></li>
       <li><a href="/blog/#intro">About</a></li>
       <li><a href="/blog/#publications">Publications</a></li>
     </ul>
   </nav>
 </header>
+
+<script type="text/javascript">
+
+  let theme = localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark";
+  if(theme == 'dark'){
+     document.getElementById('theme_icon').innerHTML += '<i class="icon-sun"></i>';
+  }else{
+     document.getElementById('theme_icon').innerHTML += '<i class="icon-moon-inv"></i>';
+  }
+
+  function changeTheme(){
+    if(theme=='dark')
+      localStorage.setItem("theme", "light");
+    else
+      localStorage.setItem("theme", "dark");
+    location.reload()
+  }
+
+</script>

@@ -1,11 +1,15 @@
 
 .icon-clock:before { content: '\e800'; } /* '' */
 .icon-mail:before { content: '\e801'; } /* '' */
+.icon-sun:before { content: '\e802'; } /* '' */
+.icon-moon-inv:before { content: '\e803'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github-circled-1:before { content: '\f09b'; } /* '' */
 .icon-rss:before { content: '\f09e'; } /* '' */
+.icon-lightbulb:before { content: '\f0eb'; } /* '' */
 .icon-rss-squared:before { content: '\f143'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-moon:before { content: '\f186'; } /* '' */
 .icon-pinterest:before { content: '\f231'; } /* '' */
 .icon-medium:before { content: '\f23a'; } /* '' */
 .icon-twitter:before { content: '\f309'; } /* '' */

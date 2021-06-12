@@ -30,22 +30,3 @@
 		weight-bold:		bold,
 		kerning-alt:		0.25em
 	);
-
-// Palette.
-	$palette: (
-		bg:					#16161A,
-		bg-alt:				darken(#16161A, 5),
-		fg:					rgba(255,255,255,0.8),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.55),
-		border:				rgba(255,255,255,0.15),
-		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#3D3D42,
-		accent1-alt:		darken(#3D3D42, 10),
-		accent2:			#69696E,
-		accent2-alt:		darken(#69696E, 10),
-		accent3:			#0058ff,
-		accent3-alt:		darken(#0058ff, 10),
-		spotlight:			darken(#69696E, 8),
-		spotlight-alt:		darken(#69696E, 6),
-	);

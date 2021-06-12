@@ -60,6 +60,24 @@
 							color: _palette(fg-bold);
 						}
 					}
+
+					#theme_icon{
+						cursor: pointer;
+
+						.icon-sun{
+							color: #ffd475;
+							&:hover{
+								color: darken(#ffd475, 20);
+							}
+						}
+
+						.icon-moon-inv{
+							color: _palette(fg-light);
+							&:hover{
+								color: _palette(fg-bold);
+							}
+						}
+					}
 				}
 			}
 		}
