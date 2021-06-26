@@ -260,7 +260,7 @@ blockquote {
 }
 
 code {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 0.25em;
   border: solid 1px rgba(255, 255, 255, 0.15);
   font-family: "Courier New", monospace;
@@ -280,6 +280,7 @@ pre code {
   line-height: 1.75em;
   padding: 1em 1.5em;
   overflow-x: auto;
+  color: rgba(0, 0, 0, 0.8) !important;
 }
 
 hr {
@@ -3221,7 +3222,7 @@ body.is-preload #sidebar nav ul li {
   white-space: nowrap;
 }
 #article_post figure {
-  display: inline-block;
+  display: grid;
 }
 #article_post figure .article-image {
   width: 100%;

@@ -38,6 +38,11 @@ plugins:
 
 excerpt_separator: <!--more-->
 
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -11,5 +11,7 @@ $palette: (
     accent3: #0058ff,
     accent3-alt: darken(#0058ff, 10),
     spotlight: darken(#ffffff,4),
-    spotlight-alt: darken(#ffffff,6)
+    spotlight-alt: darken(#ffffff,6),
+    code-background: rgba(0,0,0,0.05),
+    code-color: rgba(0, 0, 0, 0.8)
 );

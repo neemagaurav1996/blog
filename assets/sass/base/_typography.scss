@@ -155,7 +155,7 @@
 	}
 
 	code {
-		background: _palette(border-bg);
+		background: _palette(code-background);
 		border-radius: _size(border-radius);
 		border: solid _size(border-width) _palette(border);
 		font-family: _font(family-fixed);
@@ -175,6 +175,7 @@
 			line-height: 1.75em;
 			padding: 1em 1.5em;
 			overflow-x: auto;
+			color:  _palette(code-color) !important;
 		}
 	}
 
