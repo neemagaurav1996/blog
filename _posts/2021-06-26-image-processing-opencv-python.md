@@ -4,7 +4,7 @@ title:  Image Processing with OpenCV-Python
 date:   2021-06-26 02:00:00 +0530
 categories: [Blogging, Article]
 permalink: image-processing-opencv-python
-tags: image-processing opencv python python3 opencv-python
+tags: image-processing opencv python python3 opencv-python computer-vision
 image: images/article-images/image-processing-opencv-python.jpg
 image_alt: image-processing-opencv-python
 comments: true
@@ -12,7 +12,7 @@ comments: true
 
 ## Image Processing with OpenCV-Python
 <div class="article-info muted-text">
-    <span class="published-on">Published on May 26, 2021</span>
+    <span class="published-on">Published on June 26, 2021</span>
     <span class="duration"><i class="icon-clock"></i> 5 min read</span>
 </div>
 
