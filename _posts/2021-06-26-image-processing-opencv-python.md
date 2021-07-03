@@ -8,12 +8,16 @@ tags: image-processing opencv python python3 opencv-python computer-vision
 image: images/article-images/image-processing-opencv-python.jpg
 image_alt: image-processing-opencv-python
 comments: true
+display_image: images/opencv.svg
+description: Image processing is a fascinating thing. After spending some time on this, I realized that all the image editing you do with the help of 3rd party tools can be done with OpenCV and much more. Many special effects applied by your camera app can be easily done with the help of OpenCV, in very few lines of code.<br><br>This is a small attempt made by me to describe the most common operations that are performed using OpenCV.
+duration: 5 min read
+clean_date: June 26, 2021
 ---
 
-## Image Processing with OpenCV-Python
+## {{page.title}}
 <div class="article-info muted-text">
-    <span class="published-on">Published on June 26, 2021</span>
-    <span class="duration"><i class="icon-clock"></i> 5 min read</span>
+    <span class="published-on">Published on {{page.clean_date}}</span>
+    <span class="duration"><i class="icon-clock"></i> {{page.duration}}</span>
 </div>
 
 Common Operations on Images

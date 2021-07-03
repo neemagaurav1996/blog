@@ -9,13 +9,17 @@ image: images/article-images/postgres-functions.png
 image_alt: postgres-functions
 comments: true
 canonical_url: https://gaurav-neema.medium.com/some-useful-postgres-functions-clauses-6c64fbfc587f
+display_image: images/postgres.svg
+description: PostgreSQL (or Postgres) is one of the most advanced and powerful object-relational databases out there. Postgres can handle big tables with a large number of rows easily.<br><br>Let’s look at some of the functions and clauses of Postgres which I personally find very useful.</p>
+duration: 4 min read
+clean_date: May 09, 2021
 ---
 
-## Some useful Postgres Functions & Clauses
+## {{page.title}}
 
 <div class="article-info muted-text">
-    <span class="published-on">Published on <a rel="noopener" href="{{ page.canonical_url }}" target="_blank">Medium</a> on May 22, 2021</span>
-    <span class="duration"><i class="icon-clock"></i> 4 min read</span>
+    <span class="published-on">Published on <a rel="noopener" href="{{ page.canonical_url }}" target="_blank">Medium</a> on {{page.clean_date}}</span>
+    <span class="duration"><i class="icon-clock"></i> {{page.duration}}</span>
 </div>
 
 <figure>

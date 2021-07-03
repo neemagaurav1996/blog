@@ -9,12 +9,16 @@ image: images/article-images/indian-govt-vs-social-media.jpeg
 image_alt: indian-govt-vs-socail-media
 comments: true
 canonical_url: https://gaurav-neema.medium.com/indian-government-vs-social-media-apps-f4b5fdf6f70c
+clean_date: May 24, 2021
+duration: 2 min read
+description: We have been seeing a tremendous number of news and posts related to the new IT rules imposed by the Indian Government that social media apps need to follow. These social media apps including Facebook, Twitter, Koo, and WhatsApp. In the latest development, WhatsApp has sued the Indian government over new regulations. <br> So what’s this is all about?
+display_image: images/social_media.svg
 ---
 
-## Indian Government vs Social Media Apps 
+## {{page.title}}
 <div class="article-info muted-text">
-    <span class="published-on">Published on <a rel="noopener" href="{{ page.canonical_url }}" target="_blank">Medium</a> on May 24, 2021</span>
-    <span class="duration"><i class="icon-clock"></i> 2 min read</span>
+    <span class="published-on">Published on <a rel="noopener" href="{{ page.canonical_url }}" target="_blank">Medium</a> on {{page.clean_date}}</span>
+    <span class="duration"><i class="icon-clock"></i> {{page.duration}}</span>
 </div>
 
 What’s the fuzz is all about??

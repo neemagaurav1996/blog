@@ -64,4 +64,26 @@
 		}
 	}
 
+	.gist-caption{
+		text-align: center;
+		font-size: 80%;
+		margin-bottom: 1em;
+		color: _palette(fg-light);
+		line-height: 1.5;
+	}
+
+	.tags{
+
+		margin-top: 1em;
+		margin-bottom: 2em;
+
+		.tag{
+			background: _palette(border);
+			padding: 0.4em;
+			white-space: nowrap;
+			margin-left: 0.2em;
+		}
+	}
+
+
 }

@@ -53,77 +53,25 @@ layout: default
 
         <section id="publications" class="wrapper spotlights">
 
+            {% for post in site.posts %}
             <section>
-                <div class="image"><img src="images/opencv.svg" alt="" data-position="center center" /></div>
+                <div class="image"><img src="{{post.display_image}}" alt="" data-position="center center" /></div>
                 <div class="content">
                     <div class="inner">
-                        <a class="article-link" href="image-processing-opencv-python">Image Processing with OpenCV-Python</a>
+                        <a class="article-link" href="{{post.permalink}}">{{post.title}}</a>
                         <p class="muted-text">
-                            <span>June 26, 2021</span>
-                            <span style="margin-left: 10px;"><i class="icon-clock"></i> 5 min read</span>
+                            <span>{{post.clean_date}}</span>
+                            <span style="margin-left: 10px;"><i class="icon-clock"></i> {{post.duration}}</span>
                         </p>
-                        <p>Image processing is a fascinating thing. After spending some time on this, I realized that all the image editing you do with the help of 3rd party tools can be done with OpenCV and much more. Many special effects applied by your camera app can be easily done with the help of OpenCV, in very few lines of code.
-                        <br><br>This is a small attempt made by me to describe the most common operations that are performed using OpenCV.
-                        </p>
+                        <p>{{ post.description }}</p>
                         <ul class="actions">
-                            <li><a href="image-processing-opencv-python" class="button">Read article</a></li>
+                            <li><a href="{{post.permalink}}" class="button">Read article</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
+            {% endfor %}
 
-            <section>
-            	<!-- <div class="article-image">
-	                <img src="images/social_media.svg" alt="" data-position="center center" />
-	            </div> -->
-
-	            <div class="image"><img src="images/social_media.svg" alt="" data-position="center center" /></div>
-                <div class="content">
-                    <div class="inner">
-                        <a class="article-link" href="indian-govt-vs-social-media-apps">Indian Government vs Social Media Apps</a>
-                        <p class="muted-text">
-                            <span>May 26, 2021</span>
-                            <span style="margin-left: 10px;"><i class="icon-clock"></i> 4 min read</span>
-                        </p>
-                        <p>We have been seeing a tremendous number of news and posts related to the new IT rules imposed by the Indian Government that social media apps need to follow. These social media apps including Facebook, Twitter, Koo, and WhatsApp. In the latest development, WhatsApp has sued the Indian government over new regulations. <br><br>So what’s this is all about?</p>
-                        <ul class="actions">
-                            <li><a href="indian-govt-vs-social-media-apps" class="button">Read article</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="image"><img src="images/postgres.svg" alt="" data-position="center center" /></div>
-                <div class="content">
-                    <div class="inner">
-                        <a class="article-link" href="useful-postgres-functions">Some Useful Postgres Functions & Clauses</a>
-                        <p class="muted-text">
-                            <span>May 09, 2021</span>
-                            <span style="margin-left: 10px;"><i class="icon-clock"></i> 4 min read</span>
-                        </p>
-                        <p>PostgreSQL (or Postgres) is one of the most advanced and powerful object-relational databases out there. Postgres can handle big tables with a large number of rows easily.<br><br>Let’s look at some of the functions and clauses of Postgres which I personally find very useful.</p>
-                        <ul class="actions">
-                            <li><a href="useful-postgres-functions" class="button">Read article</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="image"><img src="images/wordpress-blue.svg" alt="" data-position="center center" /></div>
-                <div class="content">
-                    <div class="inner">
-                        <a rel="noopener" class="article-link" href="https://gaurav-neema.medium.com/how-to-migrate-a-wordpress-website-without-any-plugin-6c258d33121d" target="_blank">How to Migrate a WordPress Website without any Plugin?</a>
-                        <p class="muted-text">
-                            <span>Jan 27, 2021</span>
-                            <span style="margin-left: 10px;"><i class="icon-clock"></i> 2 min read</span>
-                        </p>
-                        <p>Migrating a WordPress website sounds so easy, and really is. But there are few caveats that you need to keep in mind if you are doing it for the first time. This story will guide you on how to migrate the WordPress Website easily without the use of any plugin.</p>
-                        <ul class="actions">
-                            <li><a rel="noopener" href="https://gaurav-neema.medium.com/how-to-migrate-a-wordpress-website-without-any-plugin-6c258d33121d" target="_blank" class="button">Read article</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
             <section>
                 <div class="image"><img src="images/tableau.svg" alt="" data-position="center center" /></div>
                 <div class="content">
@@ -140,6 +88,7 @@ layout: default
                     </div>
                 </div>
             </section>
+
             <section>
                 <div class="image"><img src="images/tesseract.svg" alt="" data-position="center center" /></div>
                 <div class="content">
@@ -156,6 +105,7 @@ layout: default
                     </div>
                 </div>
             </section>
+
         </section>
     </div>
 
