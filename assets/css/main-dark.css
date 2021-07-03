@@ -3199,14 +3199,16 @@ body.is-preload #sidebar nav ul li {
   line-height: 1.5;
 }
 #article_post .tags {
-  margin-top: 1em;
   margin-bottom: 2em;
+  padding-left: 0 !important;
 }
-#article_post .tags .tag {
+#article_post .tags li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 0;
+  padding: 0.3em;
   background: rgba(255, 255, 255, 0.15);
-  padding: 0.4em;
-  white-space: nowrap;
-  margin-left: 0.2em;
+  margin-top: 0.5em;
 }
 
 /*# sourceMappingURL=main-dark.css.map */

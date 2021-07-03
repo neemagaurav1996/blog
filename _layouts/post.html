@@ -10,11 +10,13 @@ layout: default
 		<section class="wrapper">
 			<div class="inner">
 				{{content}}
-				<div class="tags">
+				<ul class="tags">
 					{% for tag in page.tags %}
-					<span class="tag">{{tag}}</span>
+					<li class="tag">
+						{{tag}}
+					</li>
 				  	{% endfor %}
-				</div>
+				</ul>
 				{% include social_share.html %}
 			</div>
 		</section>
