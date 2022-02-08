@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Wordle - What are some good starting words?
-date:   2021-06-26 02:00:00 +0530
+date:   2022-02-08 02:00:00 +0530
 categories: [Blogging, Article]
 permalink: wordle-good-start-words
 tags: wordle python python3 nltk
@@ -25,7 +25,7 @@ clean_date: February 08, 2022
 </figure>
 
 
-You might have probably heard of Wordle, which is a word guessing game. If you've played Wordle before, you'll know that the most important part of solving the puzzle is starting with a good word. In this article, we will use word analysis to determine the best first word to use when solving Wordle.
+You might have probably heard of Wordle, which is a word-guessing game. If you've played Wordle before, you'll know that the most important part of solving the puzzle is starting with a good word. In this article, we will use word analysis to determine the best first word to use when solving Wordle.
 
 <!--more-->
 
@@ -69,7 +69,7 @@ for word in _5_letter_words:
             freq[_2_gram] = 1
 ```
 
-**3) Sort frequency distribution and get top 12 most occuring 2-grams**
+**3) Sort frequency distribution and get top 12 most occurring 2-grams**
 
 ```python
 freq_sorted = {k: v for k, v in sorted(freq.items(), key=lambda item: item[1], reverse=True)}
@@ -79,7 +79,7 @@ print(freq_sorted_top_12)
 > {'er': 195, 'an': 177, 'in': 170, 'ar': 169, 'al': 168, 'ra': 157, 'le': 149, 'st': 149, 're': 146, 'ch': 140, 'la': 136, 'on': 134}
 
 
-**4) Find some good words. The words that contain more than 2 top 12 2-grams.**
+**4) Find some good words. The words that contains more than 2 top 12 2-grams.**
 
 ```python
 good_words = []
